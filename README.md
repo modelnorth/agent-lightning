@@ -1,4 +1,4 @@
-# ⚡ Agent Lightning v0.2
+# ⚡ Agent Lightning v0.3
 
 **Drop-in AI agent optimization toolkit. Better than Microsoft's.**
 
