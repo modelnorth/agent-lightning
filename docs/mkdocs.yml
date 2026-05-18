@@ -1,0 +1,45 @@
+site_name: Agent Lightning ⚡
+site_description: Drop-in AI agent optimization. 100+ models via OpenRouter. Better than Microsoft's.
+site_url: https://modelNorth.github.io/agent-lightning
+repo_url: https://github.com/modelNorth/agent-lightning
+repo_name: modelNorth/agent-lightning
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - How-To Guides:
+    - Connect OpenAI: how-to/connect-openai.md
+    - Connect LangChain: how-to/connect-langchain.md
+    - Use OpenRouter: how-to/use-openrouter.md
+    - Run APO: how-to/run-apo.md
+    - Autonomous Loop: how-to/autonomous-loop.md
+    - Multi-Agent: how-to/multi-agent.md
+    - Custom Algorithm: how-to/custom-algorithm.md
+    - Distributed Runners: how-to/distributed-runners.md
+  - Tutorials:
+    - Architecture: tutorials/architecture.md
+    - Algorithms: tutorials/algorithms.md
+    - Backends: tutorials/backends.md
+  - Responsible AI: ../RAI_README.md
+  - Changelog: ../CHANGELOG.md

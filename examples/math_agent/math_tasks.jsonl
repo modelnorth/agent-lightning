@@ -1,0 +1,20 @@
+{"id": "math_001", "question": "What is 15% of 240?", "answer": "36", "difficulty": "easy", "category": "percentage"}
+{"id": "math_002", "question": "Solve for x: 3x + 7 = 22", "answer": "5", "difficulty": "easy", "category": "algebra"}
+{"id": "math_003", "question": "What is the area of a circle with radius 6? Use pi=3.14159", "answer": "113.097", "difficulty": "medium", "category": "geometry"}
+{"id": "math_004", "question": "A train travels 120km in 1.5 hours. What is its speed in km/h?", "answer": "80", "difficulty": "easy", "category": "word_problem"}
+{"id": "math_005", "question": "What is the derivative of x^3 + 2x^2 - 5x + 1?", "answer": "3x^2 + 4x - 5", "difficulty": "hard", "category": "calculus"}
+{"id": "math_006", "question": "What is the greatest common divisor of 48 and 36?", "answer": "12", "difficulty": "medium", "category": "number_theory"}
+{"id": "math_007", "question": "If f(x) = 2x^2 - 3x + 1, what is f(4)?", "answer": "21", "difficulty": "medium", "category": "functions"}
+{"id": "math_008", "question": "What is 7 factorial (7!)?", "answer": "5040", "difficulty": "easy", "category": "combinatorics"}
+{"id": "math_009", "question": "Solve: log base 2 of 64 = ?", "answer": "6", "difficulty": "medium", "category": "logarithms"}
+{"id": "math_010", "question": "What is the hypotenuse of a right triangle with legs 9 and 12?", "answer": "15", "difficulty": "easy", "category": "geometry"}
+{"id": "math_011", "question": "If 3 workers complete a job in 12 days, how many days for 9 workers?", "answer": "4", "difficulty": "medium", "category": "word_problem"}
+{"id": "math_012", "question": "What is the sum of interior angles of a hexagon?", "answer": "720", "difficulty": "medium", "category": "geometry"}
+{"id": "math_013", "question": "What is the 10th term of: 3, 7, 11, 15...?", "answer": "39", "difficulty": "medium", "category": "sequences"}
+{"id": "math_014", "question": "A rectangle has perimeter 36cm and width 8cm. What is the area?", "answer": "80", "difficulty": "easy", "category": "geometry"}
+{"id": "math_015", "question": "What is the probability of rolling a sum of 7 with two fair dice? Express as fraction.", "answer": "1/6", "difficulty": "medium", "category": "probability"}
+{"id": "math_016", "question": "Solve: 2^x = 32", "answer": "5", "difficulty": "easy", "category": "exponentials"}
+{"id": "math_017", "question": "What is the slope of the line through (2,3) and (6,11)?", "answer": "2", "difficulty": "easy", "category": "algebra"}
+{"id": "math_018", "question": "What is the median of: 4, 7, 2, 9, 1, 5, 8?", "answer": "5", "difficulty": "easy", "category": "statistics"}
+{"id": "math_019", "question": "How many ways can you arrange 5 books on a shelf?", "answer": "120", "difficulty": "easy", "category": "combinatorics"}
+{"id": "math_020", "question": "What is the sum of the first 100 natural numbers?", "answer": "5050", "difficulty": "medium", "category": "sequences"}

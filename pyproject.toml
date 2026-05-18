@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "agent-lightning"
+version = "0.3.0"
+description = "Drop-in AI agent optimization — 100+ models, APO beam search, autonomous loop. Better than Microsoft's."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Agent Lightning Contributors" }]
+keywords = ["ai", "agents", "llm", "reinforcement-learning", "prompt-optimization",
+            "openrouter", "apo", "beam-search", "orchestrator", "fine-tuning"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+openrouter  = ["aiohttp>=3.9"]
+openai      = ["openai>=1.0"]
+ollama      = ["aiohttp>=3.9"]
+langchain   = ["langchain>=0.1"]
+dashboard   = ["fastapi>=0.100", "uvicorn>=0.20"]
+serve       = ["fastapi>=0.100", "uvicorn>=0.20", "aiohttp>=3.9"]
+postgres    = ["asyncpg>=0.29"]
+litellm     = ["litellm>=1.0"]
+otel        = ["aiohttp>=3.9"]
+docs        = ["mkdocs-material>=9.0"]
+dev         = ["pytest>=7.0", "pytest-asyncio>=0.21", "aiohttp>=3.9",
+               "openai>=1.0", "fastapi>=0.100", "uvicorn>=0.20"]
+all         = ["aiohttp>=3.9", "openai>=1.0", "fastapi>=0.100",
+               "uvicorn>=0.20", "asyncpg>=0.29"]
+
+[project.urls]
+Homepage      = "https://github.com/modelNorth/agent-lightning"
+Documentation = "https://modelNorth.github.io/agent-lightning"
+Issues        = "https://github.com/modelNorth/agent-lightning/issues"
+Changelog     = "https://github.com/modelNorth/agent-lightning/blob/main/CHANGELOG.md"
+
+[project.scripts]
+agl             = "agent_lightning.cli.main:main"
+agent-lightning = "agent_lightning.__main__:main"
+
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["agent_lightning*", "contrib*"]
+
+[tool.pytest.ini_options]
+testpaths        = ["tests"]
+asyncio_mode     = "auto"
+python_files     = ["test_*.py"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 100
